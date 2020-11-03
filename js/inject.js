@@ -189,6 +189,8 @@
 				'ws-chat',
 				'treasury',
 				'market',
+                                'read-buildings',
+                                'plunderer'
 			];
 
 			// Scripte laden (nacheinander)

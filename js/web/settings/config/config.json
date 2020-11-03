@@ -113,5 +113,18 @@
 		"callback": "Help",
 		"group": "About",
 		"sort": 2
-	}
+	},
+        {
+		"name": "ShowAllPlayerAttDeff",
+                "status": true,
+                "group": "Boxes",
+                "sort": 8
+        },
+        {
+		"name": "ShowNeighborsGoods",
+                "status": true,
+                "group": "Boxes",
+                "sort": 9
+        }
+
 ]

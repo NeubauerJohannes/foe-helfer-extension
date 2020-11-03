@@ -43,6 +43,7 @@ let _menu = {
 		'alerts',
 		'greatbuildings',
 		'market',
+                'plunderer'
 	],
 
 
@@ -658,6 +659,27 @@ let _menu = {
 
 		return btn_UnitBG;
 	},
+
+        /**
+         * Plunderer actions
+         * @returns {*|jQuery}
+         */
+        plunderer_Btn: () => {
+                let btn_PlundererBG = $('<div />').attr({ 'id': 'plunderer-Btn', 'data-slug': 'plunderer' }).addClass('hud-btn');
+
+                _menu.toolTippBox(i18n('Menu.Plunderer.Title'), i18n('Menu.Plunderer.Desc'), 'plunderer-Btn');
+
+                let btn_Plunderer = $('<span />');
+
+                btn_Plunderer.on('click', function () {
+                Plunderer.page = 1;
+                        Plunderer.Show();
+                });
+
+                btn_PlundererBG.append(btn_Plunderer);
+
+                return btn_PlundererBG;
+        },
 
 	/**
 	 * Notice function
