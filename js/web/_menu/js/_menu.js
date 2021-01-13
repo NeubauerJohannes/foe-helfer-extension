@@ -50,7 +50,7 @@ let _menu = {
 		'kits',
 		'greatbuildings',
 		'market',
-                'plunderer'
+                'plunderer',
 		'bluegalaxy',
 		'moppelhelper',
 		'fpCollector'

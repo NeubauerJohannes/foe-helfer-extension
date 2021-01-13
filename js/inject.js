@@ -195,7 +195,7 @@
 				'treasury',
 				'market',
                                 'read-buildings',
-                                'plunderer'
+                                'plunderer',
 				'bluegalaxy',
 				'eventhandler',
 				'fp-collector',
